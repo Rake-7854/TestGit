@@ -30,6 +30,7 @@ public class DemoUserController {
         log.warn("INFO: Running WARN service...");
         log.debug("INFO: Running DEBUG service...");
         log.trace("INFO: Running TRACE service...");
+        log.warn("WARN: Running WARN service...");
 
         return service.saveDemo(demo);
 	}
